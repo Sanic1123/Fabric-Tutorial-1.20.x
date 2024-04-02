@@ -16,6 +16,8 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.Steel_Ingot)).entries((displayContext, entries) -> {
                         entries.add(ModItems.Steel_Ingot);
                         entries.add(ModItems.Steel_Plate);
+
+                        entries.add(ModItems.Metal_Detector);
                     }).build());
      public static void registerItemGroups() {
         TutorialMod.LOGGER.info("Register Item Groups for " + TutorialMod.MOD_ID);
