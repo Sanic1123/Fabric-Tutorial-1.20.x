@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.sanic.tutorialmod.TutorialMod;
+import net.sanic.tutorialmod.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup Steel_Group = Registry.register(Registries.ITEM_GROUP,
@@ -18,6 +19,8 @@ public class ModItemGroups {
                         entries.add(ModItems.Steel_Plate);
 
                         entries.add(ModItems.Metal_Detector);
+
+                        entries.add(ModBlocks.Steel_Block);
                     }).build());
      public static void registerItemGroups() {
         TutorialMod.LOGGER.info("Register Item Groups for " + TutorialMod.MOD_ID);

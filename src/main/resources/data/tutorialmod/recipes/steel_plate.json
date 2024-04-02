@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "item",
+    "ingredients": [
+      {
+          "item": "tutorialmod:steel_ingot"
+      },
+      {
+          "item": "tutorialmod:steel_ingot"
+      }
+  ],
+  "result": {
+    "item": "tutorialmod:steel_plate"
+  }
+}

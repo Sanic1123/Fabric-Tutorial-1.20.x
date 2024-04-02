@@ -4,5 +4,7 @@
 
   "item.tutorialmod.metal_detector": "Metal Detector",
 
+  "block.tutorialmod.steel_block": "Steel Block",
+
   "itemgroup.steel": "Steel Tutorial Group"
 }

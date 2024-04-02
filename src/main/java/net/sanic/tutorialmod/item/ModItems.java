@@ -14,12 +14,14 @@ import net.sanic.tutorialmod.item.custom.MetalDetectorItem;
 public class ModItems {
     public static final Item Steel_Ingot = registerItem("steel_ingot", new Item(new FabricItemSettings()));
     public static final Item Steel_Plate = registerItem("steel_plate", new Item(new FabricItemSettings()));
+
     public static final Item Metal_Detector = registerItem("metal_detector",
             new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
 
     private static void  addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(Steel_Ingot);
         entries.add(Steel_Plate);
+        entries.add(Metal_Detector);
     }
 
     private static Item registerItem(String name, Item item) {
