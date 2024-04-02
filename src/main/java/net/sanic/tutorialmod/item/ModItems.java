@@ -12,10 +12,13 @@ import net.sanic.tutorialmod.TutorialMod;
 
 public class ModItems {
     public static final Item Steel_Ingot = registerItem("steel_ingot", new Item(new FabricItemSettings()));
+    public static final Item Steel_Plate = registerItem("steel_plate", new Item(new FabricItemSettings()));
 
     private static void  addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(Steel_Ingot);
+        entries.add(Steel_Plate);
     }
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(TutorialMod.MOD_ID, name), item);
     }
