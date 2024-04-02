@@ -1,5 +1,6 @@
 {
   "item.tutorialmod.steel_ingot": "Steel Ingot",
+  "item.tutorialmod.steel_plate": "Steel Plate",
 
-  "item.tutorialmod.steel_plate": "Steel Plate"
+  "itemgroup.steel": "Steel Tutorial Group"
 }
